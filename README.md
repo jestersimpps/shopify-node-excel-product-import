@@ -23,7 +23,7 @@ var variants = [{"id":13737525511,"price":232.5,"variants":["8.5\" x 11\" "," 10
 6. When adding new products/options, new variants appear in yellow
 7. Add correct pricing to the variants
 
-### 2. Edit the xls2shop script
+### 2. Using the xls2shop script
 
 #### 1. Add your Shopify credentials
 
