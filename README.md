@@ -107,7 +107,7 @@ node xls2shop.js upload business\ cards\ example.xlsm
 This will take care of passing the SKU of the product variant that was selected to the cart.
 The product description that contains the variant data is injected in the product page. It contains a selector array and a variants array. The variants array contains all the possible combinations of the selectors with the corresponding product-variant SKU.
 
-The script can be triggered as such:
+The add to cart script can be triggered as such:
 ```
 <button type="button" onclick="addToCart()">
  Add to Cart
