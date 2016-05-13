@@ -89,10 +89,8 @@ function uploadProductsToShop(file) {
 
   var workbook = XLSX.readFile(file);
   var productSheet = workbook.Sheets['products'];
-
   var optionSheet = workbook.Sheets['options'];
   var variantSheet = workbook.Sheets['variants'];
-
   var products = getProducts(productSheet);
 
   products.forEach(function(product) {
@@ -390,7 +388,8 @@ function postCollection(trackTag) {
 }
 
 
-//shopify description box content has a limited size
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//you could use shopify description box content has a limited size
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 // LZW-compress a string
