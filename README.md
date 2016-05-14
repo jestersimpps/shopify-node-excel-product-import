@@ -1,7 +1,7 @@
 # Unlimited product variants in Shopify (hack)
 
 The idea of the script is to overcome the variant limitation for Shopify Products.
-Shopify has a product variant limitation of 300 per product, whereas products themselves are unlimited.
+Shopify has a product variant limitation of 100 per product, whereas products themselves are unlimited.
 To get around this limitation this script creates a unique Shopify product for every variant and links the SKU's dynamically to option selectors in the product pages.
 The script generates HTML for option boxes and javascript combination arrays. This content is then stored in the description body of the products using the Shopify-node API.
 I had to simulate randomly timed API posts since somehow I was getting errors on API POST bursts. (I'll revise the code after some more experiments)
